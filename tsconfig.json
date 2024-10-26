@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // or another version you want
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false, // Set to true for stricter type checking
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "next-env.d.ts",
+    ".next/types/**/*.ts"
+, "src/app/components/Ui/lamp.jsx", "src/app/components/Ui/MovingBorders.jsx", "src/app/components/Experience.js" , "src/app/components/RecentProjects.jsx", "src/app/components/Ui/stickyscroll.jsx", "src/app/components/NavBar.jsx", "src/app/components/Ui/Pin.jsx", "src/app/components/Ui/MagicButton.jsx", "src/app/components/Ui/Flipwords.jsx" ],
+  "exclude": [
+    "node_modules"
+  ]
+}
