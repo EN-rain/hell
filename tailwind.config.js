@@ -8,10 +8,10 @@ const {
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{ts,tsx}",
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,jsx,mdx}",  // Only include JavaScript and MDX files
+    "./src/pages/**/*.{js,jsx,mdx}",
+    "./src/components/**/*.{js,jsx,mdx}",
+    "./src/app/**/*.{js,jsx,mdx}",
   ],
   darkMode: "class", // Enable dark mode with a class
   theme: {
