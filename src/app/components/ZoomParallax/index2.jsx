@@ -68,17 +68,6 @@ export default function Index() {
 
     return (
         <div ref={container} className={styles.container}>
-            {/*Square*/}
-            <motion.div
-                className="fixed lg:w-[1100px] lg:h-[1100px] md:w-[0px] md:[100px]"
-                style={{
-                    top: "-43%",
-                    left: "5.5%",
-                    backgroundColor: "#000319",
-                    scale: squareScale,
-                    rotate: 45
-                }}
-            />
             <div id="home" className={styles.sticky}>
                 {
                     pictures.map(({ src, scale }, index) => {

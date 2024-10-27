@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative bg-[#1E0137]">
+      <div className="relative bg-[#000319]">
         <ZoomParallax />
       </div>
       <div ref={container} className="relative h-[500vh] bg-black">
