@@ -23,7 +23,7 @@ export const projects = [
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8 mt-[55px]">
+    <div className="max-w-5xl mx-auto px-8 mt-[55px] lg:mt-[50px]">
         <h1 className="text-3xl font-bold text-center lg:m-0 mt-[10px] -mb-[20px]">
         My <span className="text-purple-500">Skills</span>
       </h1>

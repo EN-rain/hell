@@ -20,7 +20,7 @@ const Profile = () => {
       </div>
       
       {/* Profile Info */}
-      <div className="flex flex-col lg:text-left text-center max-w-xl bg-[#161935] p-4 sm:p-6 rounded-2xl shadow-[0px_10px_15px_rgba(0,0,0,0.5)]">
+      <div className="flex flex-col lg:text-left text-center w-[300px] h-[300px] lg:w-[500px] lg:h-[360px] bg-[#161935] p-4 sm:p-6 rounded-2xl shadow-[0px_10px_15px_rgba(0,0,0,0.5)]">
         <div>
           <div className="text-3xl sm:text-4xl md:text-5xl text-white">
             <FlipWords words={words} className="text-purple-500 -mr-2 -ml-3 font-bold" />
@@ -41,7 +41,7 @@ const Profile = () => {
           </p>
         </div>
       </div>
-      <div className="absolute text-zinc-500 lg:-top-[80px] lg:left-[28%] lg:text-[10px] text-[8px] top-[-18%] left-[5%]">
+      <div className="absolute text-zinc-500 lg:-top-[70px] lg:left-[25%] lg:text-[10px] text-[8px] -top-[11%] -left-[5%]">
           You can use this button to go down →
         </div>
     </div>

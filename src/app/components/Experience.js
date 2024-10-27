@@ -39,7 +39,7 @@ const Experience = function() {
     { className: "py-12 w-[300px] lg:w-[1100px]" }, // Adjusted padding for mobile
     React.createElement(
       "h1",
-      { className: "text-3xl sm:text-3xl md:text-4xl font-bold text-center mt-6 -mb-2 lg:-mt-[50px] lg:mb-[20px]" }, // Responsive text size
+      { className: "text-3xl sm:text-3xl md:text-4xl font-bold text-center mt-[60px] -mb-2 lg:-mt-[100px] lg:mb-[20px]" }, // Responsive text size
       "My ",
       React.createElement("span", { className: "text-purple-500" }, "work experience")
     ),

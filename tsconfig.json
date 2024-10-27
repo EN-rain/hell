@@ -27,9 +27,19 @@
   "include": [
     "**/*.js",
     "**/*.jsx",
+    ".next/types/**/*.js",
     "next-env.d.js",
-    ".next/types/**/*.js"
-, "src/app/components/Ui/lamp.jsx", "src/app/components/Ui/MovingBorders.jsx", "src/app/components/Experience.js" , "src/app/components/RecentProjects.js", "src/app/components/Ui/stickyscroll.jsx", "src/app/components/NavBar.jsx", "src/app/components/Ui/Pin.jsx", "src/app/components/Ui/MagicButton.jsx", "src/app/components/Ui/Flipwords.jsx" ],
+    "src/app/components/Experience.js",
+    "src/app/components/NavBar.jsx",
+    "src/app/components/RecentProjects.js",
+    "src/app/components/Ui/Flipwords.jsx",
+    "src/app/components/Ui/MagicButton.jsx",
+    "src/app/components/Ui/MovingBorders.jsx",
+    "src/app/components/Ui/Pin.jsx",
+    "src/app/components/Ui/lamp.jsx",
+    "src/app/components/Ui/stickyscroll.jsx",
+    ".next/types/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]

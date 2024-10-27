@@ -1,12 +1,12 @@
 "use client";
 import styles from '../ZoomParallax/styles2.module.scss';
-import Picture1 from '../../../../public/images/1.png';
-import Picture2 from '../../../../public/images/upper1.png';
-import Picture3 from '../../../../public/images/left.jpg';
-import Picture4 from '../../../../public/images/right.jpg';
-import Picture5 from '../../../../public/images/bottom.jpg';
+import Picture1 from '../../../../public/images/center.png';
+import Picture2 from '../../../../public/images/top.png';
+import Picture3 from '../../../../public/images/topleft.png';
+import Picture4 from '../../../../public/images/topright.png';
+import Picture5 from '../../../../public/images/bottom.png';
 import Picture6 from '../../../../public/images/bottomleft.png';
-import Picture7 from '../../../../public/images/bottomright.jpg';
+import Picture7 from '../../../../public/images/bottomright.png';
 import Image from 'next/image';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
@@ -87,7 +87,7 @@ export default function Index() {
                                 <div className={styles.imageContainer}>
                                     <Image
                                         src={src}
-                                        fill
+                                        cover
                                         alt="image"
                                         placeholder='blur'
                                     />
@@ -171,7 +171,7 @@ export default function Index() {
                 {/* Cricle 4 */}
                 <motion.div
                     style={{
-                        backgroundColor: '#000319',
+                        backgroundColor: '#1E0137',
                         opacity: circleOpacity,
                         width: '600px',
                         height: '600px',
