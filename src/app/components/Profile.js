@@ -41,7 +41,7 @@ const Profile = () => {
           </p>
         </div>
       </div>
-      <div className="absolute text-zinc-500 lg:-top-[70px] lg:left-[25%] lg:text-[10px] text-[8px] -top-[11%] -left-[5%]">
+      <div className="absolute text-zinc-500 lg:-top-[19%] lg:left-[25%] lg:text-[10px] text-[8px] -top-[11%] -left-[5%]">
           You can use this button to go down →
         </div>
     </div>
