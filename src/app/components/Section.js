@@ -159,7 +159,7 @@ export const Section5 = ({ scrollYProgress }) => {
       </div>
       <button
         onClick={() => scrollToSection("home")}
-        className="lg:text-[20px] text-[10px] absolute lg:bottom-8 bottom-3 left-1/2 transform -translate-x-1/2 underline text-purple-500 lg:mt-0 mt-2h-16 md:w-24 md:h-24"
+        className="lg:text-[20px] text-[15px] absolute lg:bottom-8 bottom-8 left-1/2 transform -translate-x-1/2 underline text-purple-500 lg:mt-0 mt-2h-16 md:w-24 md:h-24"
       >
         HOME
       </button>
