@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import Pfp from '../../../public/images/model.png';
+import Pfp from 'https://preview.redd.it/why-can-crazy-mita-do-things-like-a-normal-mita-v0-55rt5gnulnae1.jpeg?width=640&crop=smart&auto=webp&s=2caeaea7452dfac3891b997680880cbfb07b0aae';
 import { FlipWords } from "../components/Ui/Flipwords";
 
 const Profile = () => {
@@ -27,7 +27,7 @@ const Profile = () => {
             <span className="text-2xl sm:text-3xl md:text-4xl">Designer</span>
           </div>
           <h2 className="text-lg sm:text-xl md:text-2xl font-bold">
-            I&apos;m <span className="text-purple-500">Edrian Nieves</span>
+            I&apos;m <span className="text-purple-500">NiggaOne</span>
           </h2>
         </div>
 
